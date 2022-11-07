@@ -1,2 +1,3 @@
 # Band
- This is a Bootstrap3 template
+
+This is a Bootstrap3 template
