@@ -18,6 +18,8 @@ Difference Between Bootstrap 3 and Bootstrap 5
 |Carousel controls|`a`|`button`|
 ||`left carousel-control`|`carousel-control-prev`|
 ||`right carousel-control`|`carousel-control-next`|
+|`label`|exist|not exist|
+|`badge` default floating|left|right|
 
 # Watch the results!
 
