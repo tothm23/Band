@@ -16,6 +16,8 @@ Difference Between Bootstrap 3 and Bootstrap 5
 |Carousel Indicators| `ol`, `li`|`div`, `button`|
 |Carousel Wrapper|`item`|`carousel-item`|
 |Carousel controls|`a`|`button`|
+||`left carousel-control`|`carousel-control-prev`|
+||`right carousel-control`|`carousel-control-next`|
 
 # Watch the results!
 
