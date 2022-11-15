@@ -12,6 +12,10 @@ Difference Between Bootstrap 3 and Bootstrap 5
 |Grid system|`sm` >=768px |`md` >=768px|
 |Rounded Images|`img-circle`|`rounded-circle`|
 |Collapse|`data-toggle`|`data-bs-toggle`, `data-bs-target`|
+|Carousel|`data-ride`|`data-bs-ride`|
+|Carousel Indicators| `ol`, `li`|`div`, `button`|
+|Carousel Wrapper|`item`|`carousel-item`|
+|Carousel controls|`a`|`button`|
 
 # Watch the results!
 
