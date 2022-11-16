@@ -20,6 +20,7 @@ Difference Between Bootstrap 3 and Bootstrap 5
 ||`right carousel-control`|`carousel-control-next`|
 |`label`|exist|not exist|
 |`badge` default floating|left|right|
+|Thumbnail Images|`thumbnail`|`img-thumbnail`|
 
 # Watch the results!
 
