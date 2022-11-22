@@ -21,6 +21,12 @@ Difference Between Bootstrap 3 and Bootstrap 5
 |`label`|exist|not exist|
 |`badge` default floating|left|right|
 |Thumbnail Images|`thumbnail`|`img-thumbnail`|
+|Modal|`data-toggle`|`data-bs-toggle`|
+||`data-bs-target`|`data-target`|
+||`close`|`btn-close`|
+|Modal `form-group`|exist|not exist|
+|Modal `btn-block`|`btn-block`|`btn-block`, `d-grid`|
+|Modal `role`|exist|not exist|
 
 # Watch the results!
 

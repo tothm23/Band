@@ -99,6 +99,24 @@
         background-color: #fff;
         color: #000;
       }
+
+      .modal-header,
+      h4,
+      .close {
+        background-color: #333;
+        color: #fff !important;
+        text-align: center;
+        font-size: 30px;
+      }
+
+      .modal-header,
+      .modal-body {
+        padding: 40px 50px;
+      }
+
+      a {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -213,7 +231,7 @@
             <img src="img/paris.jpg" class="img-thumbnail border-0" alt="Paris" />
             <p><strong>Paris</strong></p>
             <p>Fri. 27 November 2015</p>
-            <button class="btn">Buy Tickets</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Buy Tickets</button>
           </div>
         </div>
         <div class="col-md-4">
@@ -221,7 +239,7 @@
             <img src="img/newyork.jpg" class="img-thumbnail border-0" alt="New York" />
             <p><strong>New York</strong></p>
             <p>Sat. 28 November 2015</p>
-            <button class="btn">Buy Tickets</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Buy Tickets</button>
           </div>
         </div>
         <div class="col-md-4">
@@ -229,11 +247,53 @@
             <img src="img/sanfran.jpg" class="img-thumbnail border-0" alt="San Francisco" />
             <p><strong>San Francisco</strong></p>
             <p>Sun. 29 November 2015</p>
-            <button class="btn">Buy Tickets</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- MODAL -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4><i class="fa-solid fa-lock"></i> Tickets</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              
+            </div>
+
+            <div class="modal-body">
+              <form>
+                <div class="mb-3 mt-3">
+                  <label for="psw"><i class="fa-solid fa-cart-shopping"></i> Tickets, $23 per person</label>
+                  <input type="number" class="form-control" id="psw" placeholder="How many?" />
+                </div>
+                <div class="mb-3 mt-3">
+                  <label for="usrname"><i class="fa-solid fa-user"></i> Send To</label>
+                  <input type="text" class="form-control" id="usrname" placeholder="Enter email" />
+                </div>
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-block">
+                    Pay
+                    <i class="fa-solid fa-check"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <div class="modal-footer">
+              <div class="container-fluid">
+                <div class="clearfix">
+                  <button type="submit" class="btn btn-danger float-start" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Cancel</button>
+                  <p class="float-end pt-2">Need <a href="#">help?</a></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/b5a90b2da4.js" crossorigin="anonymous"></script>
   </body>
 </html>
