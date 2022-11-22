@@ -22,11 +22,13 @@ Difference Between Bootstrap 3 and Bootstrap 5
 |`badge` default floating|left|right|
 |Thumbnail Images|`thumbnail`|`img-thumbnail`|
 |Modal|`data-toggle`|`data-bs-toggle`|
-||`data-bs-target`|`data-target`|
+|Modal|`data-bs-target`|`data-target`|
 ||`close`|`btn-close`|
 |Modal `form-group`|exist|not exist|
 |Modal `btn-block`|`btn-block`|`btn-block`, `d-grid`|
 |Modal `role`|exist|not exist|
+|Dynamic Tabs|`data-toggle`|`data-bs-toggle`|
+|Dynamic Tabs|`li`, `a`|`li.nav-item`, `a.nav-link`|
 
 # Watch the results!
 
