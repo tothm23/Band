@@ -29,6 +29,17 @@ Difference Between Bootstrap 3 and Bootstrap 5
 |Modal `role`|exist|not exist|
 |Dynamic Tabs|`data-toggle`|`data-bs-toggle`|
 |Dynamic Tabs|`li`, `a`|`li.nav-item`, `a.nav-link`|
+|Navbar|`navbar-default`|`navbar-expand-sm`|
+||`navbar-fixed-top`|`fixed-top`|
+||`navbar-toggle`|`navbar-toggler`|
+||`data-toggle`|`data-bs-toggle`|
+||`data-target`|`data-bs-target`|
+|Navbar toggle button|`icon-bar`|`navbar-toggler-icon`|
+||`nav`|not exist|
+||`navbar-right`|`justify-content-end`|
+||`li`, `a`|`nav-item`, `nav-link`|
+|Dropdown in Navbar|`a`|`dropdown-item`|
+||`caret`|not exist|
 
 # Watch the results!
 
