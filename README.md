@@ -40,6 +40,9 @@ Difference Between Bootstrap 3 and Bootstrap 5
 ||`li`, `a`|`nav-item`, `nav-link`|
 |Dropdown in Navbar|`a`|`dropdown-item`|
 ||`caret`|not exist|
+|Scrollspy|`data-spy` |`data-bs-spy` |
+| |`data-target`|`data-bs-target`|
+| |`data-offset`|`data-bs-offset`|
 
 # Watch the results!
 
